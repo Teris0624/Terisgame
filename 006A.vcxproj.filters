@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\uimanager">
+      <UniqueIdentifier>{40c8262e-976e-4026-96c7-bb35342bcc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tetrisgame">
+      <UniqueIdentifier>{2bf71b52-57ad-4651-9557-a29e96fed390}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mapmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inputmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="settingsmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tetromino.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gamelogic.cpp">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClCompile>
+    <ClCompile Include="uigamerenderer.cpp">
+      <Filter>源文件\uimanager</Filter>
+    </ClCompile>
+    <ClCompile Include="tetrisgamerenderer.cpp">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClCompile>
+    <ClCompile Include="inputhandler.cpp">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClCompile>
+    <ClCompile Include="inputhander2.cpp">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClCompile>
+    <ClCompile Include="menurenderer.cpp">
+      <Filter>源文件\uimanager</Filter>
+    </ClCompile>
+    <ClCompile Include="mousehandler.cpp">
+      <Filter>源文件\uimanager</Filter>
+    </ClCompile>
+    <ClCompile Include="uimanager.cpp">
+      <Filter>源文件\uimanager</Filter>
+    </ClCompile>
+    <ClCompile Include="tetrisgame.cpp">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mapmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inputmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="settingsmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tetromino.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uimanager.h">
+      <Filter>源文件\uimanager</Filter>
+    </ClInclude>
+    <ClInclude Include="tetrisgame.h">
+      <Filter>源文件\tetrisgame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-network-d-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-system-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-system-d-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-window-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-window-d-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-audio-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-audio-d-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-graphics-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-graphics-d-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\SFML-3.1.0\bin\sfml-network-3.dll">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
